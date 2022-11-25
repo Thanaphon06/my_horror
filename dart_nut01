@@ -1,0 +1,16 @@
+/* Simple Hello, World! program */
+void main(){
+   ConsolePrinter cp = new ConsolePrinter();
+   cp.print_data();
+}
+class printer{
+    void print_data(){
+        print("_____print data____");
+    }
+}
+
+class ConsolePrinter implements printer{
+    void print_data(){
+        print("_____Printing to Console______");
+    }
+}
