@@ -1,0 +1,15 @@
+/* Simple Hello, World! program */
+void main(){
+   cpu c = new cpu('i5 5500');
+   ram a = new ram('ram128 ddr5');
+}
+class cpu{
+    cpu(string enjoy){
+        print(enjoy);
+    }
+}
+class ram{
+    ram(string ddr){
+        print(ddr);
+    }
+}
